@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+header{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    background-color: azure;
+}
+header img{
+    width: 80px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+table{
+    width: 100%;
+    margin: 30px;
+}
+tr{
+    width: 50vw;    
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+
+}
+th{
+    width: 150px;
+    height: 23px;    
+    background-color: rgb(255, 255, 255);
+}
+thead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+tbody{
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#vendedor{
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#vendas{
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
